@@ -1,9 +1,18 @@
 ﻿namespace COMP003A.ZooManagementsystem
 {
+    /// <summary>
+    /// Represents the Animal Clss
+    /// </summary>
+    
     internal abstract class Animal
     {
         private string _name { get; set; }
         private string _species { get; set; }
+
+        /// <summary>
+        /// Gets or sets the name of the animal
+        /// Throws an error if the input is invalid
+        /// </summary>
 
         public string Name
         {
@@ -13,9 +22,15 @@
             {
                 if (string.IsNullOrEmpty(value))
                     _name = value;
+                throw new ArgumentNullException(nameof(value));
             }
         }
 
+        /// <summary>
+        /// Gets or sets the species of the animal
+        /// Throws an error if input is invalid
+        /// </summary>
+        
         public string Species
         {
             get { return _species; }
@@ -24,6 +39,7 @@
             {
                 if (string.IsNullOrEmpty(value))
                     _species = value;
+                throw new ArgumentNullException(nameof(value));
 
             }
         }

@@ -7,17 +7,13 @@ using System.Threading.Tasks;
 namespace COMP003A.ZooManagementsystem
 {
     internal class Parrot : Animal
+        /// <summary>
+        /// Creates a sub class for the Animal Class
+        /// </summary>
+        /// <param name="The name of the parrot."</param>
+        /// <param name="The species of the parrot."</param
     {
-        public string ParrotName { get; set; }
-
-        public Parrot(string parrotName, string name, string species)
-        {
-            ParrotName = parrotName;
-            Name = name;
-            Species = species;
-
-        }
-
+      
         public override void MakeSound()
         {
             Console.WriteLine("The parrot squaks!");
