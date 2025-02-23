@@ -6,16 +6,19 @@
 namespace COMP003A.ZooManagementsystem
 {
     internal class Lion : Animal
-        /// <summary>
-        /// Creats the lion class for the Animal class
-        /// </summary>
-        /// <param name="The name of the lion."</param
-        /// <param name="The species of the lion."</param
+    /// <summary>
+    /// Creats the lion class for the Animal class
+    /// </summary>
+    /// <param name="The name of the lion."</param
+    /// <param name="The species of the lion."</param
     {
-       
+        public string lion {  get; set; }
+   
+
         public override void MakeSound()
         {
             Console.WriteLine("The lion roars!");
         }
     }
 }
+

@@ -30,8 +30,8 @@ namespace COMP003A.ZooManagementsystem
             set
             {
                 if (string.IsNullOrEmpty(value))
-                    _name = value;
-                throw new ArgumentNullException(nameof(value));
+                   throw new ArgumentNullException(nameof(value));
+                _name = value;
             }
         }
 
@@ -47,8 +47,8 @@ namespace COMP003A.ZooManagementsystem
             set
             {
                 if (string.IsNullOrEmpty(value))
-                    _species = value;
-                throw new ArgumentNullException(nameof(value));
+                    throw new ArgumentNullException(nameof(value));
+                _species = value;
 
             }
         }
