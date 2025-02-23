@@ -1,4 +1,9 @@
-﻿namespace COMP003A.ZooManagementsystem
+﻿// Author: Alvaro Pulido
+// Course: COMP003A
+// Faculty: Jonathan Cruz
+// Zoo management system demonstrating inheritance, abstraction, polymorphism, and method overloading in C#
+
+namespace COMP003A.ZooManagementsystem
 {
     /// <summary>
     /// Represents the Animal Clss
