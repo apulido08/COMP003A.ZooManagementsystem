@@ -2,8 +2,6 @@
 // Course: COMP-003A
 // Faculty: Jonathan Cruz
 // Purpose: Zoo management system demonstrating inheritance, abstraction, polymorphism, and method overloading in C#
-using System.ComponentModel.Design;
-using System.Linq.Expressions;
 
 namespace COMP003A.ZooManagementsystem
 {
@@ -24,7 +22,7 @@ namespace COMP003A.ZooManagementsystem
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("Enter your choice: ");
 
-                int choice = int.Parse(Console.ReadLine());
+            
                 int menu = 0;
 
                 try
@@ -35,7 +33,9 @@ namespace COMP003A.ZooManagementsystem
                 {
                     Console.WriteLine("Invaid input. Please enter a valid number");
                 }
-                if (menu == 1)
+                if 
+                    
+                    (menu == 1)
                 {
                     Lion lion = new Lion();
                     Console.WriteLine("Name of lion: ");
