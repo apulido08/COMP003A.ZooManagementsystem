@@ -14,6 +14,10 @@ namespace COMP003A.ZooManagementsystem
         private string _name { get; set; }
         private string _species { get; set; }
 
+        public string name;
+        public string species;
+
+
         /// <summary>
         /// Gets or sets the name of the animal
         /// Throws an error if the input is invalid
